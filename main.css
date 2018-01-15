@@ -1,0 +1,71 @@
+body{
+	background-color: #b3cccc;
+}
+
+body,
+input{
+	font:1em "Oswald", lato;
+	color: #363639;
+
+}
+a{
+	text-decoration: none;
+	border-bottom: 1px dashed #363639;
+}
+
+.list{
+	background-color: #fff;
+	margin: 20px auto;
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow: 3px;
+}
+
+.list .header{
+	font-family: Roboto;
+	margin: 0 0 10px 0;
+}
+
+.tasks{
+	margin: 0;
+	padding: 0;
+	list-style: lower-alpha;
+}
+
+.tasks li,
+.task-add .input{
+	border:0;
+	border-bottom: 1px dashed #ccc;
+	padding:15px 0;
+}
+
+.tasks li:hover .doneButton{
+	opacity: 1;
+}
+
+.tasks .task.done{
+	text-decoration: line-through;
+}
+.doneButton{
+	display:inline-block;
+	font-size: 0.8em;
+	background-color: #8d8d8e;
+	color:#363639;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.5;
+}
+
+.input{
+	width: 100%;
+}
+
+.submit{
+	background-color: $fff;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	width: 100%;
+	box-shadow: 3px 3px 0 #ddd;
+}
